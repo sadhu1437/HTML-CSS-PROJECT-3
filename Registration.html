@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./Mystyle4.css">
+    <style>
+        body{
+            background-color: #eff4fd;
+            text-align: center;
+        }
+
+        table tr td {
+            padding: .5rem;
+        }
+
+        input {
+            border-radius: .5rem;
+            height: 30px;
+            padding: 0 .3rem 0 .3rem
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Welcome to Mywebsite</h1>
+        <ul>
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./contactus.html">Contact</a></li>
+            <li><a href="/Project3-228A5A0509/Registration.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        </nav>
+
+    <form action="login.html">
+        <fieldset>
+        <legend>Account Registration</legend>
+        <Center><table align="center">
+            <tR>
+                <td><label for="username">Username</label></td>
+                <tD><input type="text" placeholder="Username..." id="username"/></tD>
+            </tR>
+            <tR>
+                <td><label for="email">Email</label></td>
+                <td><input list="email" name="mymails" placeholder="Email" id="email"></td>
+            </tR>
+            <tr>
+                <td><label for="per1">Your Mobile No</label></td>
+                <td><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The ten digits number" placeholder="0000000000"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password</label></td>
+                <td><input type="password" placeholder="Password..." id="Password"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><label for="number">Age</label></td>
+                <td><input type="number" placeholder="age" id="number"/></td>
+            </tr>
+            <tr>
+                <td><label for="radio">Gender</label></td>
+                <td>Male<input type="radio" name="radio"/> Female <input type="radio" name="radio"/></td>
+            </tr>
+            <tr>
+                <td><label for="branch">Branch</label></td>
+                <td><select name="branch" placeholder="">Branch
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="MECH">MECH</option> 
+                    <option value="OTHER">OTHER</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Languages">Languages</label></td>
+                <td><input type="checkbox">English <input type="checkbox">Telugu <input type="checkbox">Hindi <input type="checkbox">Other</td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><textarea rows="10" cols="40" placeholder="Address..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="submit" value="Sign in"></td>
+            </tr>
+        </table></Center>
+    </fieldset>
+    </form>
+
+
+
+        <datalist id="email">
+            <option value="abc@gmail.com"></option>
+            <option value="sandeep@gmail.com"></option>
+            <option value="sands99@gmail.com"></option>
+            <option value="ashok@gmail.com"></option>
+        </datalist>
+
+
+        <footer>
+            <p>&copy; 2024 My MyCompany. All rights reserved.</p>
+        </footer>
+</body>
+</html>

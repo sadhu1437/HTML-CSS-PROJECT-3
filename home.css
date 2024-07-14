@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container img{
+    height: 600px;
+    width: 420px;
+    margin-left: auto;
+}
+.container video{
+    display: flex;
+    margin-left: auto;
+}
+body{
+    background-color: black;
+    color:red;
+}
+nav ul li a{
+    color:red;
+}
+.rise_logo_container {
+    display: flex;
+    align-items: center;
+}
+
+.rise_logo_container p {
+    line-height: 2rem;
+    text-indent: 20%;
+    text-align: justify;
+    margin-right: 2rem;;
+}
+.video_container {
+    display: flex;
+    align-items: center;
+}
+.video_container p{
+    line-height: 2rem;
+    text-indent: 20%;
+    text-align: justify;
+    color: yellow;
+    margin: 40px 10px;
+}
+
+.audio_container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-top: 300px;
+}
+.audio_container p{
+    line-height: 2rem;
+    text-align: justify;
+    margin-right: 2rem;
+    color: aliceblue;
+    text-indent: 2rem;
+}
+
+.audio_container audio {
+    width: 1800px;
+}
